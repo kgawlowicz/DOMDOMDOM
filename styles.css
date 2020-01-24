@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    flex-flow: wrap;
+}
+
+.square {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    background: #555;
+    margin: 5px;
+}
+
+.id-display {
+    display: none;
+    color: white;
+    font-family: sans-serif;
+    font-size: 2em;
+}
+
+.square:hover .id-display {
+    display: inherit;
+}
